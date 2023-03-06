@@ -1,0 +1,53 @@
+*{
+    background-color: #eeeeee;
+}
+
+.container {
+    margin: 100px 50px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+input[type=search] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 3px solid #ccc;
+    background-color: #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=search]:focus {
+    border: 3px solid black;
+}
+
+input[type=button] {
+    margin: 5px 10px;
+    padding: 12px 20px;
+    border: 2px solid #ccc;
+    background-color: #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    cursor: pointer;
+}
+
+input[type=button]:focus {
+    border: 2px solid black;
+    background-color: #5a5959;
+}
+
+.container li{
+    margin: 10px 0px;
+    list-style: none;
+}
+
+.container ol {
+    padding: 0px;
+}
+
+.varoitus {
+    margin: 20px;
+}

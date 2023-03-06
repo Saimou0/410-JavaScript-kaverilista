@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>410 JavaScript Kaverilista</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <h1>Kaverilista V1</h1>
+        <h2> <a href="index.html">V1</a> / <a href="indexV2.html">V2</a> </h2>
+
+        <form name="form" action="" method="get">
+            <label for="syotto">Syötä 10 nimeä:</label><br>
+            <input type="search" id="syotto" name="syotto" placeholder="Nimi...">
+            <input type="button" value="Lisää kaveri" onclick="lisaaKaveri(this.form)">
+        </form>
+        
+        <p id="varoitus"></p>
+        <p id="listaus"></p>
+    </div>
+
+
+
+    <script src="KaverilistaV1.js"></script>
+
+</body>
+</html>
